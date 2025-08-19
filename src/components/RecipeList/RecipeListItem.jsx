@@ -10,7 +10,7 @@ const RecipeListItemStyle = styled.li`
 	flex-direction: column;
 	align-items: center;
 
-padding: 20px;
+	padding: 20px;
 	outline: 1px solid #cba6f7;
 `;
 

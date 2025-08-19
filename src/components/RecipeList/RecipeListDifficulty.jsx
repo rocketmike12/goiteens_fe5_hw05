@@ -3,10 +3,11 @@ import styled from "styled-components";
 const RecipeListDifficultyStyle = styled.div`
 	background-color: #1f1626;
 	padding: 20px;
+	width: 100%;
 `;
 
 const RecipeListDifficultyList = styled.ul`
-padding: 20px;
+	padding: 20px;
 	display: flex;
 	justify-content: space-around;
 	gap: 5px;

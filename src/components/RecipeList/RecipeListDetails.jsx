@@ -6,8 +6,13 @@ import { HiOutlineChartBar } from "react-icons/hi";
 
 const RecipeListDetailsStyle = styled.ul`
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
 	gap: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+
+	background-color: #1f1626;
 `;
 
 const RecipeListDetailsItem = styled.li`
