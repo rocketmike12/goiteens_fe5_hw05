@@ -9,9 +9,9 @@ const RecipeListDetailsStyle = styled.ul`
 	justify-content: space-around;
 	align-items: center;
 	gap: 5px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	width: 100%;
-
 	background-color: #1f1626;
 `;
 

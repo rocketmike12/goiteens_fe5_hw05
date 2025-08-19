@@ -7,11 +7,14 @@ const RecipeListDifficultyStyle = styled.div`
 `;
 
 const RecipeListDifficultyList = styled.ul`
-	padding: 20px;
+	margin-top: 20px;
 	display: flex;
-	justify-content: space-around;
-	gap: 5px;
+	justify-content: space-between;
 	width: 100%;
+
+	& p {
+		margin: 0;
+	}
 `;
 
 const RecipeListDifficultyTitle = styled.p`
@@ -20,22 +23,22 @@ const RecipeListDifficultyTitle = styled.p`
 `;
 
 const RecipeListDifficultyItem = styled.li`
-	padding: 5px;
+	padding: 20px;
 	outline: 1px solid #cba6f7;
 	font-weight: 500;
 `;
 
 const RecipeListDifficultyItemHard = styled.li`
+	padding: 20px;
 	color: #0a000c;
 	background-color: #f38ba8;
-	padding: 5px;
 	font-weight: 500;
 `;
 
 const RecipeListDifficultyItemSelected = styled.li`
+	padding: 20px;
 	color: #0a000c;
 	background-color: #cba6f7;
-	padding: 5px;
 	font-weight: 500;
 `;
 
